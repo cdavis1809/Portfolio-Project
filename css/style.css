@@ -1,3 +1,43 @@
+:root {
+  --primary-color: #f9f7fe;
+  --secondary-color: #6c63ff;
+  --heading-font-family: Playfair Display, sans-serif;
+  --primary-font-family: Poppins, sans-serif;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--primary-font-family);
+}
 h1 {
-  font-family: Poppins, sans-serif;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+  font-size: 96px;
+}
+.intro h2 {
+  font-weight: normal;
+  font-size: 24px;
+}
+.intro p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+.intro {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 160px 20px;
+}
+.btn-contact {
+  padding: 18px 30px;
+  color: white;
+  background-color: var(--secondary-color);
+  border: solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.btn-contact:hover {
+  border: solid var(--secondary-color);
 }
