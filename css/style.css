@@ -8,12 +8,22 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: var(--primary-font-family);
+  font-family: var(--heading-font-family);
 }
 h1 {
   font-family: var(--heading-font-family);
   font-weight: bold;
   font-size: 96px;
+}
+h2 {
+  font-weight: bold;
+  font-size: 64px;
+}
+p {
+  font-weight: normal;
+  text-align: center;
+  line-height: 1.7;
+  opacity: 70%;
 }
 .intro h2 {
   font-weight: normal;
@@ -27,9 +37,9 @@ h1 {
 .intro {
   background: var(--primary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 85px 20px;
 }
-.btn-contact {
+.btn-branding {
   padding: 18px 30px;
   color: white;
   background-color: var(--secondary-color);
@@ -38,6 +48,35 @@ h1 {
   font-size: 18px;
   line-height: 27px;
 }
-.btn-contact:hover {
+.btn-branding:hover {
   border: solid var(--secondary-color);
+}
+.btn-branding-outline {
+  border: solid var(--secondary-color);
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 27px;
+  color: var(--secondary-color);
+}
+.btn-branding-outline:hover {
+  color: white;
+  background-color: var(--secondary-color);
+  border: solid var(--secondary-color);
+}
+.project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 64px;
+  }
+  h2 {
+    font-size: 48px;
+  }
+  .project-description {
+    padding: 25px 0;
+  }
+  .intro {
+    padding: 50px 10px;
+  }
 }
