@@ -65,20 +65,20 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.about-section {
+.content-container {
   padding: 85px 20px;
   font-family: var(--primary-font-family);
 }
-.about-section h1 {
+.content-container h1 {
   font-size: 50px;
   line-height: 65px;
 }
-.about-section h2 {
+.content-container h2 {
   font-size: 20px;
   padding: 20px 0;
   text-align: left;
 }
-.about-section p {
+.content-container p {
   font-size: 18px;
   text-align: left;
 }
