@@ -21,9 +21,13 @@ h2 {
 }
 p {
   font-weight: normal;
-  text-align: center;
   line-height: 1.7;
   opacity: 70%;
+}
+.intro {
+  background: var(--primary-color);
+  text-align: center;
+  padding: 85px 20px;
 }
 .intro h2 {
   font-weight: normal;
@@ -33,11 +37,6 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-}
-.intro {
-  background: var(--primary-color);
-  text-align: center;
-  padding: 85px 20px;
 }
 .btn-branding {
   padding: 18px 30px;
@@ -66,6 +65,40 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.about-section {
+  padding: 85px 20px;
+  font-family: var(--primary-font-family);
+}
+.about-section h1 {
+  font-size: 50px;
+  line-height: 65px;
+}
+.about-section h2 {
+  font-size: 20px;
+  padding: 20px 0;
+  text-align: left;
+}
+.about-section p {
+  font-size: 18px;
+  text-align: left;
+}
+.inquire-here {
+  max-width: 90%;
+  background-color: var(--primary-color);
+  padding: 10px;
+  margin: 50px;
+}
+.inquire-here .row {
+  margin: 25px 70px;
+}
+.inquire-here h3 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.inquire-here p {
+  font-size: 18px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 64px;
@@ -78,5 +111,17 @@ p {
   }
   .intro {
     padding: 50px 10px;
+  }
+  .about-section {
+    text-align: center;
+  }
+  .about-section h2 {
+    text-align: center;
+  }
+  .about-section p {
+    text-align: center;
+  }
+  .inquire-here {
+    text-align: center;
   }
 }
