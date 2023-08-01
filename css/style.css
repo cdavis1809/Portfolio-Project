@@ -24,27 +24,8 @@ p {
   line-height: 1.7;
   opacity: 70%;
 }
-nav {
-  padding: 10px 0;
-}
 nav img {
-  max-width: 180px;
-}
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 42px;
-  margin-left: 25px;
-}
-nav a {
-  text-decoration: none;
-  color: #272142;
-  font-weight: bold;
-  opacity: 90%;
+  max-height: 40px;
 }
 nav a:hover {
   color: var(--secondary-color);
@@ -52,6 +33,33 @@ nav a:hover {
 }
 nav li.active a {
   color: var(--secondary-color);
+}
+footer {
+  margin-bottom: 60px;
+}
+footer .email-link {
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+footer .social-links a {
+  font-size: 18px;
+  text-decoration: none;
+  margin: 0 20px;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 50%;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--secondary-color);
 }
 .intro {
   background: var(--primary-color);
@@ -158,12 +166,5 @@ nav li.active a {
   }
   .inquire-here {
     text-align: center;
-  }
-  nav li {
-    margin-left: 10px;
-  }
-  nav img {
-    max-width: 45px;
-    opacity: 90%;
   }
 }
