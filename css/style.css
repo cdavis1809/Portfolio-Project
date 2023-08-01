@@ -29,7 +29,7 @@ nav img {
 }
 nav a:hover {
   color: var(--secondary-color);
-  transition: all 150ms ease-in-out;
+  transition: all 100ms ease-in-out;
 }
 nav li.active a {
   color: var(--secondary-color);
