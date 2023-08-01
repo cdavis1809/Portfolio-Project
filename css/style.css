@@ -24,6 +24,35 @@ p {
   line-height: 1.7;
   opacity: 70%;
 }
+nav {
+  padding: 10px 0;
+}
+nav img {
+  max-width: 180px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 25px;
+}
+nav a {
+  text-decoration: none;
+  color: #272142;
+  font-weight: bold;
+  opacity: 90%;
+}
+nav a:hover {
+  color: var(--secondary-color);
+  transition: all 150ms ease-in-out;
+}
+nav li.active a {
+  color: var(--secondary-color);
+}
 .intro {
   background: var(--primary-color);
   text-align: center;
@@ -105,7 +134,7 @@ p {
   font-size: 18px;
 }
 
-@media (max-width: 960px) {
+@media (max-width: 768px) {
   h1 {
     font-size: 64px;
   }
@@ -129,5 +158,12 @@ p {
   }
   .inquire-here {
     text-align: center;
+  }
+  nav li {
+    margin-left: 10px;
+  }
+  nav img {
+    max-width: 45px;
+    opacity: 90%;
   }
 }
