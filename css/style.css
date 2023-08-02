@@ -25,7 +25,8 @@ p {
   opacity: 70%;
 }
 nav img {
-  max-height: 40px;
+  max-height: 45px;
+  padding-right: 10px;
 }
 nav a:hover {
   color: var(--secondary-color);
@@ -141,6 +142,11 @@ footer .social-links a:hover {
 }
 .inquire-here p {
   font-size: 18px;
+}
+.headshot {
+  max-width: 450px;
+  border: solid 10px var(--primary-color);
+  border-radius: 10px;
 }
 
 @media (max-width: 768px) {
