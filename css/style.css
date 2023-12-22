@@ -176,5 +176,6 @@ footer .social-links a:hover {
   }
   .social-links {
     color: var(--secondary-color);
+    text-decoration: var(--secondary-color);
   }
 }
