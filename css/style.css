@@ -148,7 +148,10 @@ footer .social-links a:hover {
   border: solid 10px var(--primary-color);
   border-radius: 10px;
 }
-
+.social-links link {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 64px;
@@ -173,9 +176,5 @@ footer .social-links a:hover {
   }
   .inquire-here {
     text-align: center;
-  }
-  .social-links {
-    color: var(--secondary-color);
-    text-decoration: var(--secondary-color);
   }
 }
