@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #c3f5ee;
-  --secondary-color: #419589;
+  --primary-color: #c7f3ed;
+  --secondary-color: #31786c;
   --heading-font-family: Playfair Display, sans-serif;
   --primary-font-family: Poppins, sans-serif;
 }
@@ -22,7 +22,7 @@ h2 {
 p {
   font-weight: normal;
   line-height: 1.7;
-  opacity: 70%;
+  opacity: 80%;
 }
 nav img {
   max-height: 45px;
@@ -173,5 +173,8 @@ footer .social-links a:hover {
   }
   .inquire-here {
     text-align: center;
+  }
+  .social-links {
+    color: var(--secondary-color);
   }
 }
