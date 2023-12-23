@@ -102,7 +102,7 @@ footer .social-links a:hover {
   border: solid var(--secondary-color);
 }
 .project-description {
-  padding: 120px 60px;
+  padding: 130px 60px;
 }
 .content-container {
   padding: 85px 20px;
@@ -148,10 +148,19 @@ footer .social-links a:hover {
   border: solid 10px var(--primary-color);
   border-radius: 10px;
 }
-.social-links link {
+.contact-link {
   color: var(--secondary-color);
-  text-decoration: none;
 }
+.contact-link:hover {
+  color: rgb(5, 164, 164);
+}
+.come-again {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 25px;
+  padding-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   h1 {
     font-size: 64px;
